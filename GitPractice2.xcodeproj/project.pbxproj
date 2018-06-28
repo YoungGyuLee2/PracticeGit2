@@ -14,6 +14,8 @@
 		07EE704420E4BFE300F8AE30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07EE704220E4BFE300F8AE30 /* LaunchScreen.storyboard */; };
 		07EE704F20E4BFE300F8AE30 /* GitPractice2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE704E20E4BFE300F8AE30 /* GitPractice2Tests.swift */; };
 		07EE705A20E4BFE300F8AE30 /* GitPractice2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE705920E4BFE300F8AE30 /* GitPractice2UITests.swift */; };
+		3BF038E220E4C3BE00EB3C0B /* sujinStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BF038E120E4C3BE00EB3C0B /* sujinStoryboard.storyboard */; };
+		3BF038E520E4C3D800EB3C0B /* SJViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF038E420E4C3D800EB3C0B /* SJViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		07EE705520E4BFE300F8AE30 /* GitPractice2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitPractice2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07EE705920E4BFE300F8AE30 /* GitPractice2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitPractice2UITests.swift; sourceTree = "<group>"; };
 		07EE705B20E4BFE300F8AE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BF038E120E4C3BE00EB3C0B /* sujinStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = sujinStoryboard.storyboard; sourceTree = "<group>"; };
+		3BF038E420E4C3D800EB3C0B /* SJViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SJViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +101,11 @@
 		07EE703820E4BFE300F8AE30 /* GitPractice2 */ = {
 			isa = PBXGroup;
 			children = (
+				3BF038E320E4C3C000EB3C0B /* Sujin */,
 				07EE703920E4BFE300F8AE30 /* AppDelegate.swift */,
 				07EE703B20E4BFE300F8AE30 /* ViewController.swift */,
 				07EE703D20E4BFE300F8AE30 /* Main.storyboard */,
+				3BF038E120E4C3BE00EB3C0B /* sujinStoryboard.storyboard */,
 				07EE704020E4BFE300F8AE30 /* Assets.xcassets */,
 				07EE704220E4BFE300F8AE30 /* LaunchScreen.storyboard */,
 				07EE704520E4BFE300F8AE30 /* Info.plist */,
@@ -123,6 +129,14 @@
 				07EE705B20E4BFE300F8AE30 /* Info.plist */,
 			);
 			path = GitPractice2UITests;
+			sourceTree = "<group>";
+		};
+		3BF038E320E4C3C000EB3C0B /* Sujin */ = {
+			isa = PBXGroup;
+			children = (
+				3BF038E420E4C3D800EB3C0B /* SJViewController.swift */,
+			);
+			path = Sujin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +249,7 @@
 				07EE704420E4BFE300F8AE30 /* LaunchScreen.storyboard in Resources */,
 				07EE704120E4BFE300F8AE30 /* Assets.xcassets in Resources */,
 				07EE703F20E4BFE300F8AE30 /* Main.storyboard in Resources */,
+				3BF038E220E4C3BE00EB3C0B /* sujinStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07EE703C20E4BFE300F8AE30 /* ViewController.swift in Sources */,
+				3BF038E520E4C3D800EB3C0B /* SJViewController.swift in Sources */,
 				07EE703A20E4BFE300F8AE30 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
