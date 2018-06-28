@@ -14,6 +14,8 @@
 		07EE704420E4BFE300F8AE30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07EE704220E4BFE300F8AE30 /* LaunchScreen.storyboard */; };
 		07EE704F20E4BFE300F8AE30 /* GitPractice2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE704E20E4BFE300F8AE30 /* GitPractice2Tests.swift */; };
 		07EE705A20E4BFE300F8AE30 /* GitPractice2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EE705920E4BFE300F8AE30 /* GitPractice2UITests.swift */; };
+		222B5D4C20E4C351003F0A8C /* kyeahen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222B5D4B20E4C351003F0A8C /* kyeahen.storyboard */; };
+		222B5D4F20E4C3CF003F0A8C /* KyeahenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222B5D4E20E4C3CF003F0A8C /* KyeahenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		07EE705520E4BFE300F8AE30 /* GitPractice2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitPractice2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07EE705920E4BFE300F8AE30 /* GitPractice2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitPractice2UITests.swift; sourceTree = "<group>"; };
 		07EE705B20E4BFE300F8AE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222B5D4B20E4C351003F0A8C /* kyeahen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = kyeahen.storyboard; sourceTree = "<group>"; };
+		222B5D4E20E4C3CF003F0A8C /* KyeahenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KyeahenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		07EE703820E4BFE300F8AE30 /* GitPractice2 */ = {
 			isa = PBXGroup;
 			children = (
+				222B5D4D20E4C3B8003F0A8C /* kyeahen */,
 				07EE703920E4BFE300F8AE30 /* AppDelegate.swift */,
 				07EE703B20E4BFE300F8AE30 /* ViewController.swift */,
 				07EE703D20E4BFE300F8AE30 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				07EE705B20E4BFE300F8AE30 /* Info.plist */,
 			);
 			path = GitPractice2UITests;
+			sourceTree = "<group>";
+		};
+		222B5D4D20E4C3B8003F0A8C /* kyeahen */ = {
+			isa = PBXGroup;
+			children = (
+				222B5D4B20E4C351003F0A8C /* kyeahen.storyboard */,
+				222B5D4E20E4C3CF003F0A8C /* KyeahenViewController.swift */,
+			);
+			path = kyeahen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +248,7 @@
 			files = (
 				07EE704420E4BFE300F8AE30 /* LaunchScreen.storyboard in Resources */,
 				07EE704120E4BFE300F8AE30 /* Assets.xcassets in Resources */,
+				222B5D4C20E4C351003F0A8C /* kyeahen.storyboard in Resources */,
 				07EE703F20E4BFE300F8AE30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				222B5D4F20E4C3CF003F0A8C /* KyeahenViewController.swift in Sources */,
 				07EE703C20E4BFE300F8AE30 /* ViewController.swift in Sources */,
 				07EE703A20E4BFE300F8AE30 /* AppDelegate.swift in Sources */,
 			);
